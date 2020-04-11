@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <title>Adri Doces</title>
+    <!-- Código que carrega arquivos CSS-->
+    <link rel="stylesheet" href="./estilos.css">
+  </head>
+  <body>
+   <link href='https://fonts.googleapis.com/css?family=Geo' rel='stylesheet'>
+
+<div class="caixa">
+  <img class="logo" src="https://scontent.fcgh13-1.fna.fbcdn.net/v/t1.0-9/12227037_1003763773036572_2933939106436274261_n.png?_nc_cat=103&_nc_sid=85a577&_nc_eui2=AeH3QvYFRr4CHTkGZ598z5cIpGeLRUheHFWkZ4tFSF4cVVE47zpqHc0AH3eCQstXx5A0xmQPUvCeOgKSYobdqSdG&_nc_ohc=nphKR6qCBekAX9r-oQD&_nc_ht=scontent.fcgh13-1.fna&oh=f842834eaf6f27469178ca05677cdcdf&oe=5EB846B2">
+  <h6>Faça já o seu pedido!</h6>
+  <form 
+      action="https://formspree.io/xrgaypyb"
+  method="POST"
+        class="formulario"
+>
+  <label>
+    <input type="text" name="Nome" placeholder="Seu Nome" required>
+  </label>
+  <label>
+    <input type="text" name="Endereço" placeholder="Seu Endereço" required>
+  </label>
+  <label>
+    <input type="tel" name="Telefone" placeholder="Seu Telefone" required>
+  </label>
+  <label>
+    <textarea name="Pedido" placeholder="Pedido" required></textarea>
+  </label>
+
+  <button type="submit">Enviar</button>
+</form>
+  <div class="socialmedia">
+  <button class="insta" onclick="instagram()"><img src="https://i1.wp.com/multarte.com.br/wp-content/uploads/2019/03/logo-instagram-png-fundo-transparente5.png?fit=2400%2C2400&ssl=1" alt=""></button>
+  <button class="face" onclick="facebook()"><img src="https://image.flaticon.com/icons/png/512/59/59439.png"></button>
+  </div>
+</div>
+    <!-- Código que carrega arquivos JavaScript-->
+    <script src="./codigos.js"></script>
+    
+  </body>
+</html>

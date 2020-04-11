@@ -1,0 +1,64 @@
+.caixa{
+  width: 200px;
+  height: 356px;
+  background-color: #bb6e6b;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border: 5px solid #da9b95;
+  border-radius: 8px;
+}
+.formulario button{
+  cursor: pointer;
+  width: 50px;
+  border: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transition: .2s ease;
+}
+.formulario button:hover{
+  background-color: #e0635c;
+}
+.logo {
+  width: 80px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3px;
+  margin-bottom: 5px;
+}
+.formulario input, .formulario textarea{
+  margin-bottom: 5px;
+  margin-left: 5px;
+  width: 90%;
+  margin-right: 5px;
+  border: none;
+  border: 2px solid #cacaca;
+  padding: 3px 3px;
+}
+.formulario input, .formulario textarea, .formulario button{
+   font-family: 'Geo';
+   border-radius: 10px;
+}
+.socialmedia img{
+  width: 20px;
+  height: 20px;
+}
+.socialmedia button{
+  cursor: pointer;
+  background-color: #bb6e6b;
+  border: none;
+
+}
+.caixa h6{
+  font-size: 15px;
+  margin: 15px;
+  text-align: center;
+}
+.socialmedia{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
